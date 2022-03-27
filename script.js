@@ -71,5 +71,5 @@ function getnews(finaldataIdx,getnewsIdx,err,res,html){
 //         })
     
 }
-fs.writeFileSync("cryptotrack.json", JSON.stringify(finaldata));
+fs.writeFileSync("CoinTrack.json", JSON.stringify(finaldata));
 }
